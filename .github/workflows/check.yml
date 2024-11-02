@@ -37,7 +37,8 @@ jobs:
       - name: Checkout apps repo
         uses: actions/checkout@v4
         with:
-          repository: apache/nuttx-apps
+          #### repository: apache/nuttx-apps
+          repository: nuttxpr/nuttx-apps ####
           path: apps
           fetch-depth: 0
 
